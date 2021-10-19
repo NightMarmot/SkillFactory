@@ -1,2 +1,2 @@
-# Brain
-my first repozit
+# SkillFactory
+Задания по учёбе
