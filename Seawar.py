@@ -1,5 +1,6 @@
 from random import randint
 
+
 class BoardException(Exception):
     pass
 
@@ -174,6 +175,7 @@ class User(Player):
             x, y = int(x), int(y)
             return Dot(x-1, y-1)
 
+        
 class Game:
     def __init__(self, size=6):
         self.size = size
@@ -257,5 +259,6 @@ class Game:
         self.greet()
         self.loop()
 
+        
 g = Game()
 g.start()
